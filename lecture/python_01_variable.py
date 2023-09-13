@@ -50,3 +50,65 @@ print(type(5))
 # - 2) float(): 실수형으로 변환
 # - 3) str(): 문자열형으로 변환
 print("="*200)
+# "Hi" -> float(), int() 불가
+# 문자열 실수형: "3.14"    가능
+# 문자열 정수형: "5"       가능
+int_a = 3
+float_b = 3.14
+str_int_c = "9"
+str_float_d = "9.2"
+
+# 큰자료형 -> 작은 자료형으로 변환할 때 주의
+# 정수형(3) -> 실수형(3.0)
+print(float(int_a))
+# 정수형(3) -> 문자형("3")
+print(str(int_a))
+# 실수형(3.14) -> 정수형(3) #주의(파일 손실 생김)
+print(int(float_b))
+# 문자열 정수형("3") -> 정수형(3)
+print(int(str_int_c))
+# 문자열 정수형("3") -> 실수형(3.0)
+print(float(str_int_c))
+# 문자열 실수형("3.14") -> 정수형(Error)
+# print(int(str_float_d))
+# 문자열 실수형("3.14") -> 실수형(3.14)
+print(float(str_float_d))
+
+
+# 5.None
+# - 아무런 값을 갖지 않을 때 사용
+# - 일반적으로 변수가 초기값을 갖지 않게 하고 생성할 때 사용
+# - 기타 언어의 Null과 같은 의미로 사용
+print("="*200)
+
+# C, JAVA: 변수 생성 -> int num;
+# Python: 변수 호출 -> num
+# Python: 변수 생성 -> num = None
+student_name = None # 절대 사용 금지
+student_name = ""   # 적극 권장
+
+# "Null Pointer Exception"
+
+# 기본 자료형(Primitive Type): 변수에 값이 그대로 저장
+# - int num = 4;
+# 객체 자료형(Reference Type): 변수에 값이 위치한 "주소"가 저장
+# - String name = "10";
+
+# * JAVA와 C: 기본, 객체 둘 다 사용
+# * Python: 객체만 사용
+
+# 6. 변수(Variable)
+# - 변수: 하나의 값을 저장할 수 있는 메모리 공간
+print("="*200)
+num = 4
+num = 10
+print(num) # 출력: 10
+
+# - 변수 생성 및 초기화
+# - 문법: num = 5
+#   * num: "num" 변수 생성
+#   *대입연산사(=): 우측의 값을 좌측에 저장
+#   *동등연산자(==): Equal
+#   * 초기화: 초기 변수를 생성하면 쓰레기 파일들이 존재
+#           변수에 값을 대입하면 공간이 초기화 되고 값만 저장
+
