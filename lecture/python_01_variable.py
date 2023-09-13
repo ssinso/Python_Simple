@@ -8,7 +8,7 @@ print("Hello Python")
 # - Python : '' or "" -> String
 # - C, Java: ''(char), ""(string)
 
-#참고: Escape Code
+# 참고: Escape Code
 # - 문법: \(역 슬러쉬) + @
 # - 문자열(String) 내의 일부 문자의 의미를 달리하여 특정한 효과 주기
 # - 예) \n: 한 줄 개행, \t: 탭(8칸 공백)
@@ -17,7 +17,7 @@ print("Hello \nPython")
 print("Hello \tPython")
 print("="*200)
 
-#2. 자료형(Type)
+# 2. 자료형(Type)
 # - Python의 모든 자료형은 객체(Object)
 # - JACA 정수형: byte, short, int, long
 # - Python 정수형: int
@@ -50,3 +50,4 @@ print(type(5))
 # - 2) float(): 실수형으로 변환
 # - 3) str(): 문자열형으로 변환
 print("="*200)
+print("2")
