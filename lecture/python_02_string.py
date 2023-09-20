@@ -110,8 +110,8 @@ id = "abc123@gmail.com"
 idx = id.find("@")
 val = id[:idx]
 print(val)
-#
-#
+#     "www.google.com"
+#     "www.daum.com"
 url = "www.naver.com"
 urla = url.find(".")
 urlb = url.rfind(".")
