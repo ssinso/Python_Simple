@@ -63,3 +63,10 @@ b = sorted(a)   # 디폴트: 오름차순
 c = sorted(a, reverse=True) #내림차순
 print(a)
 print(b)
+
+
+a = 5
+b = 8
+print(a)
+print(b)
+
