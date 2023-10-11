@@ -21,3 +21,4 @@ print(round(result, 2)) # 평균값
 b = [22, 1, 4, 7, 98]
 #최소값
 print(num_min) # 1 출력
+
